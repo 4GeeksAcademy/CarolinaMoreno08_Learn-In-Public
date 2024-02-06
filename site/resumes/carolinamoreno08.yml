@@ -1,0 +1,124 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Carolina
+    last_name: Moreno
+    
+    # Define yourself in 4-5 words
+    motto: determined, resilient, thoughtful, analytical
+    
+    # Focus
+    focus: Educating myself
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+     Experienced with prioritizing business and project requirements. Defines project purpose and cost/benefit analysis for various initiatives and projects. Enacts project planning and management to balance project resource, timeline, and scope.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: carolina.morenoh08gmail.com #optional
+    phone: 5518047373 #optional
+    linkedin: carolinamoreno #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: carolina.moreno08
+    
+   
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+
+    # Interests or hobbies
+    interests:
+      - item: Hiking
+
+      - item: Running/walking
+
+
+# Your previous education
+education:
+    - degree: Bachelor's degree in International Business
+      university: Instituto Politecnico Nacional
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2011 - 2015
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+
+          - Bullet point
+          - Bullet point
+
+   
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Business Operations Analyt III
+      time: 2021 - Present
+      company: Rackspace, CDMX
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Performs complex analyses of business goals, objectives, and needs of the general business environment. Plans and designs business processes and makes recommendations and changes in order to improve and support business activities. Utilized systems and data to resolve business issues in the most effective and productive manner.
+
+          - Prioritizes business and project requirements.
+          - Defines project purpose and cost/benefit analysis for various initiatives and projects.
+
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: Velocity
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+    
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 98%
+
+      - name: JavaScript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
